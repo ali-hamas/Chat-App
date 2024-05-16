@@ -1,22 +1,17 @@
 # Chat App
 
-## Table of Contents
-
-- [Demo](#demo)
-- [Technologies](#technologies)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Contribute](#contribute)
-
-## Demo
-
 Visit [Chat App](https://chat-alihamas.vercel.app/), register an account and enter in public chat room.
+
+## Features
+
+- A single public room accessible to everyone who register account.
+- Users can delete message.
 
 ## Technologies
 
 - React js
 - Tailwind css
-- Appwrite
+- Appwrite (BaaS)
 
 ## Getting Started
 
@@ -50,11 +45,11 @@ To get a local copy of this project up and running, follow these steps:
 
 You can use this project as a learning resource to:
 
-- Learn about appwrite authentication.
-- How to make secure routes so only login users visite that page.
-- Also wrap open routes so login users cannot visit that pages.
-- Learn how to interact with appwrite database, send documents and get documents from databases.
-- Get to know about realtime changes in dataase and update DOM on changes in databases.
+- Explore appwrite authentication mechanisms.
+- Implement secure routes to restrict access to authenticated users only.
+- Utilize open routes to prevent authorized users to open pages like signup or signin.
+- Gain hands-on experience in interacting with the appwrite database, including sending and retrieving documents.
+- Understand real-time database updates and their impact on dynamically updating the DOM.
 - Feel free to modify and adapt it to your needs. If you have any suggestions for improvements, please share them!
 
 ## Contribute
